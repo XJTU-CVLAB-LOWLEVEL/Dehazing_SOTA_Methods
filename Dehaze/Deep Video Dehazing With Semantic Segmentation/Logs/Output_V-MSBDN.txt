@@ -1,0 +1,1 @@
+===>Epoch1 Complete: Avg MSE loss is :0.000000, Avg Testing PSNR is :16.621397

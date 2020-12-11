@@ -1,0 +1,5 @@
+===>Epoch1 Complete: Avg MSE loss is :0.117031, Avg Testing PSNR is :11.980459
+===>Epoch2 Complete: Avg MSE loss is :0.097368, Avg Testing PSNR is :13.611157
+===>Epoch3 Complete: Avg MSE loss is :0.099878, Avg Testing PSNR is :13.764105
+===>Epoch4 Complete: Avg MSE loss is :0.093430, Avg Testing PSNR is :14.479642
+===>Epoch5 Complete: Avg MSE loss is :0.100459, Avg Testing PSNR is :13.519177

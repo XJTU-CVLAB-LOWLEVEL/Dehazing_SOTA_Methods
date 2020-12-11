@@ -1,0 +1,50 @@
+name: edvr_for_edvr
+model_type: EDVRModel
+scale: 1
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 0
+
+datasets:
+  test:
+    name: REDS4
+    type: VideoTestDataset
+    dataroot_gt: /home/yzt/PytorchP/EDVR/datasets/VideoHazy_v2_re/fake_gt
+    dataroot_lq: /home/yzt/PytorchP/EDVR/datasets/VideoHazy_v2_re/For_EDVR2 # /home/yzt/PytorchP/EDVR/datasets/VideoHazy_v2_re/fake_gt
+    meta_info_file: /home/yzt/PytorchP/EDVR/basicsr/data/meta_info/for_edvr.txt
+    io_backend:
+      type: disk
+
+    cache_data: false
+    num_frame: 5
+    padding: reflection_circle
+
+# network structures
+network_g:
+  type: EDVR
+  num_in_ch: 3
+  num_out_ch: 3
+  num_feat: 64
+  num_frame: 5
+  deformable_groups: 8
+  num_extract_block: 5
+  num_reconstruct_block: 10
+  center_frame_idx: ~
+  hr_in: true
+  with_predeblur: true
+  with_tsa: true
+
+# path
+path:
+  pretrain_model_g: /home/yzt/PytorchP/EDVR/experiments/101_EDVR_OURs_1_archived_20201026_200440/models/net_g_16000.pth
+  strict_load: true
+
+# validation settings
+val:
+  save_img: true
+  suffix: for_edvr
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 0
+      test_y_channel: false

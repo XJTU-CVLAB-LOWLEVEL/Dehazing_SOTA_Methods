@@ -1,0 +1,11 @@
+===>Epoch5 Complete: Avg MSE loss is :0.019841, Avg Testing PSNR is :16.849770
+===>Epoch6 Complete: Avg MSE loss is :0.021915, Avg Testing PSNR is :17.967094
+===>Epoch7 Complete: Avg MSE loss is :0.020575, Avg Testing PSNR is :17.808076
+===>Epoch8 Complete: Avg MSE loss is :0.020337, Avg Testing PSNR is :18.409721
+===>Epoch9 Complete: Avg MSE loss is :0.021597, Avg Testing PSNR is :16.157479
+===>Epoch10 Complete: Avg MSE loss is :0.019634, Avg Testing PSNR is :18.102123
+===>Epoch1 Complete: Avg MSE loss is :0.020120, Avg Testing PSNR is :17.355506
+===>Epoch2 Complete: Avg MSE loss is :75687576.000000, Avg Testing PSNR is :5.426852
+===>Epoch3 Complete: Avg MSE loss is :52238.453125, Avg Testing PSNR is :5.562963
+===>Epoch4 Complete: Avg MSE loss is :12870.981445, Avg Testing PSNR is :5.245306
+===>Epoch5 Complete: Avg MSE loss is :7421.435547, Avg Testing PSNR is :5.290445
