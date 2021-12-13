@@ -1,4 +1,4 @@
-# Projects
+# Dehazing_SOTA_Methods
  We have debugged various dehazing methods, and these code can be directly used to run.
 
 
