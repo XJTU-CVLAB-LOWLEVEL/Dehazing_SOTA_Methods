@@ -28,3 +28,13 @@ pages={7007-7016},
 year={2019},
 }
 ```
+
+```
+@misc{wang2020basicsr,
+  author =       {Xintao Wang and Ke Yu and Kelvin C.K. Chan and
+                  Chao Dong and Chen Change Loy},
+  title =        {BasicSR},
+  howpublished = {\url{https://github.com/xinntao/BasicSR}},
+  year =         {2020}
+}
+```
