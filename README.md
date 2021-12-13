@@ -27,9 +27,7 @@ booktitle={Proc. Conference on Computer Vision and Pattern Recognition},
 pages={7007-7016},
 year={2019},
 }
-```
 
-```
 @misc{wang2020basicsr,
   author =       {Xintao Wang and Ke Yu and Kelvin C.K. Chan and
                   Chao Dong and Chen Change Loy},
