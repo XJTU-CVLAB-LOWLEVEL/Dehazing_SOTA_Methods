@@ -1,2 +1,2 @@
 # Projects
- There are projects in this repository which were modified,verified.
+ We have debugged various dehazing methods, and these code can be directly used to run.
